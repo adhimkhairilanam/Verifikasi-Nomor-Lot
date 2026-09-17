@@ -257,7 +257,7 @@ st.markdown(
     /* ===== Label Input ===== */
     label[data-testid="stWidgetLabel"] p,
     .stTextInput label p {{
-        color: #000000 !important;
+        color: #00246E !important;
         font-weight: 600 !important;
         font-size: 2.15rem !important;
     }}
@@ -342,8 +342,8 @@ st.markdown(
     div[data-testid="stJson"] div,
     div[data-testid="stJson"] pre,
     div[data-testid="stJson"] code {{
-        color: #2E2525 !important;
-        -webkit-text-fill-color: #2E2525 !important;
+        color: #00246E !important;
+        -webkit-text-fill-color: #00246E !important;
     }}
     </style>
     {flag_switcher_html}
