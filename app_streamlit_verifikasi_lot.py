@@ -342,8 +342,8 @@ st.markdown(
     div[data-testid="stJson"] div,
     div[data-testid="stJson"] pre,
     div[data-testid="stJson"] code {{
-        color: #FFFFFF !important;
-        -webkit-text-fill-color: #FFFFFF !important;
+        color: #2E2525 !important;
+        -webkit-text-fill-color: #2E2525 !important;
     }}
     </style>
     {flag_switcher_html}
