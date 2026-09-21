@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(
-    page_title="Sistem Verifikasi Nomor Lot Produksi",
+    page_title="Portal Verifikasi Produk Alderon",
     layout="wide",
 )
 
@@ -14,7 +14,7 @@ st.set_page_config(
 # ============================================================
 TRANSLATIONS = {
     "ID": {
-        "app_title": "Sistem Verifikasi Nomor Lot Produksi",
+        "app_title": "Portal Verifikasi Produk Alderon",
         "input_label": "MASUKKAN KODE UNIK:",
         "search_button": "Cari Data",
         "db_not_found": (
@@ -43,7 +43,7 @@ TRANSLATIONS = {
         "lang_switch_label": "🌐 Bahasa",
     },
     "EN": {
-        "app_title": "Production Lot Number Verification System",
+        "app_title": "Alderon Product Verification Portal",
         "input_label": "ENTER UNIQUE CODE:",
         "search_button": "Search Data",
         "db_not_found": (
