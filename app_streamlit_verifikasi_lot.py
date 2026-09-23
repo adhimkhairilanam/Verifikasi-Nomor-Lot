@@ -330,21 +330,22 @@ st.markdown(
         font-weight: 800 !important;
     }}
 
-    /* ===== Detail Informasi Produksi (st.json) ===== */
-    div[data-testid="stJson"] {{
-        background-color: #FFFFFF !important;
-        border-radius: 10px !important;
-        padding: 1rem !important;
-    }}
+ /* ===== Khusus Teks Detail Informasi Produksi (st.json) Dipaksa PUTIH + TEKS HITAM ===== */
+div[data-testid="stJson"] {
+    background-color: #FFFFFF !important;
+    border: 1px solid #DCE9F7 !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+}
 
-    div[data-testid="stJson"] *,
-    div[data-testid="stJson"] span,
-    div[data-testid="stJson"] div,
-    div[data-testid="stJson"] pre,
-    div[data-testid="stJson"] code {{
-        color: #FFFFFF !important;
-        -webkit-text-fill-color: #00246E !important;
-    }}
+div[data-testid="stJson"] *,
+div[data-testid="stJson"] span,
+div[data-testid="stJson"] div,
+div[data-testid="stJson"] pre,
+div[data-testid="stJson"] code {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+}
     </style>
     {flag_switcher_html}
     """),
