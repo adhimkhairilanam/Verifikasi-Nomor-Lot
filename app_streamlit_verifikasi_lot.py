@@ -169,7 +169,7 @@ st.markdown(
     div[data-testid="stMainBlockContainer"],
     .main .block-container {{
         background-color: #FFFFFF !important;
-        border: 2,5px solid #7DD3FC !important; /* Garis Biru Muda Soft */
+        border: 2.5px solid #7DD3FC !important; /* Garis Biru Muda Soft */
         border-radius: 16px !important;
         padding: 2.5rem 2rem !important;
         margin-top: 1rem !important;
@@ -330,20 +330,20 @@ st.markdown(
         font-weight: 800 !important;
     }}
 
-/* ===== Khusus Teks Detail Informasi Produksi (st.json) Teks dipaksa PUTIH ===== */
-div[data-testid="stJson"] {
-    border-radius: 10px !important;
-    padding: 1rem !important;
-}
+    /* ===== Khusus Teks Detail Informasi Produksi (st.json) Teks dipaksa PUTIH ===== */
+    div[data-testid="stJson"] {{
+        border-radius: 10px !important;
+        padding: 1rem !important;
+    }}
 
-div[data-testid="stJson"] *,
-div[data-testid="stJson"] span,
-div[data-testid="stJson"] div,
-div[data-testid="stJson"] pre,
-div[data-testid="stJson"] code {
-    color: #FFFFFF !important;
-    -webkit-text-fill-color: #FFFFFF !important;
-}
+    div[data-testid="stJson"] *,
+    div[data-testid="stJson"] span,
+    div[data-testid="stJson"] div,
+    div[data-testid="stJson"] pre,
+    div[data-testid="stJson"] code {{
+        color: #FFFFFF !important;
+        -webkit-text-fill-color: #FFFFFF !important;
+    }}
     </style>
     {flag_switcher_html}
     """),
