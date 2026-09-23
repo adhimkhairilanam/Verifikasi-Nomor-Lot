@@ -332,7 +332,7 @@ st.markdown(
 
     /* ===== Detail Informasi Produksi (st.json) ===== */
     div[data-testid="stJson"] {{
-        background-color: #0F172A !important;
+        background-color: #FFFFFF !important;
         border-radius: 10px !important;
         padding: 1rem !important;
     }}
@@ -342,7 +342,7 @@ st.markdown(
     div[data-testid="stJson"] div,
     div[data-testid="stJson"] pre,
     div[data-testid="stJson"] code {{
-        color: #00246E !important;
+        color: #FFFFFF !important;
         -webkit-text-fill-color: #00246E !important;
     }}
     </style>
